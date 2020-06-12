@@ -5,11 +5,11 @@
 	- tab list
 1. <- this is ordered list
 2. ^copy
-- [ ] checklist
-__bold__
-_italic_
-~~delType~~
-> quote
+- [ ] checklist  
+__bold__  
+_italic_  
+~~delType~~  
+> quote  
 
 `in line code`
 
