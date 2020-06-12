@@ -1,26 +1,33 @@
 # How to use git?
 
 ## Create a new repository
-폴더를 하나 만들고, 그 안에서 아래 명령을 실행하세요.
-`git init`
-새로운 git 저장소가 만들어집니다.
+폴더를 하나 만들고, 그 안에서 아래 명령을 실행하세요.  
+`git init`  
+새로운 git 저장소가 만들어집니다.  
 
 ## Checkout a repository
-로컬 저장소를 복제(clone)하려면 아래 명령을 실행하세요.
-`git clone /로컬/저장소/경로`
-원격 서버의 저장소를 복제하려면 아래 명령을 실행하세요.
-`git clone 사용자명@호스트:/원격/저장소/경로`
+로컬 저장소를 복제(clone)하려면 아래 명령을 실행하세요.  
+`git clone /로컬/저장소/경로`  
+원격 서버의 저장소를 복제하려면 아래 명령을 실행하세요.  
+`git clone 사용자명@호스트:/원격/저장소/경로`  
 
 ## Workflow
-여러분의 로컬 저장소를 git이 관리하는 세 그루의 나무로 구성돼있어요.
-첫번째 나무인 `작업 디렉토리(Working directory)`는
-실제 파일들로 이루어져있고, 두번째 나무인 `인덱스(Index)`는
-준비영역(staging area)의 역할을 하며, 마지막 나무인 `HEAD`는
-최종 확정본(commit)을 나타내요.
-![trees](https://rogerdudler.github.io/git-guide/img/trees.png)
-
-## Add & Commit
-
+여러분의 로컬 저장소를 git이 관리하는 세 그루의 나무로 구성돼있어요.  
+첫번째 나무인 `작업 디렉토리(Working directory)`는 실제 파일들로 이루어져있고,    
+두번째 나무인 `인덱스(Index)`는 준비영역(staging area)의 역할을 하며,  
+마지막 나무인 `HEAD`는 최종 확정본(commit)을 나타내요.  
+![trees](https://rogerdudler.github.io/git-guide/img/trees.png)  
+  
+## Add & Commit  
+변경된 파일은 아래 명령어로 **Index**에 추가할 수 있어요.  
+`git add <파일 이름>`  
+`git add *`  
+이것이 바로 git의 기본 작업 흐름에서 첫 단계에 해당돼요.  
+하지만 실제로 변경 내용을 확정하려면 아래 명령을 내려야 한답니다.  
+`git commit -m "이번 commit에 대한 설명"`  
+자, 이제 변경된 파일이 **HEAD**에 반영됐어요.  
+하지만, 원격 저장소에는 아직 반영이 안 됐답니다.  
+  
 ## Pushing changes
 
 ## Branching
