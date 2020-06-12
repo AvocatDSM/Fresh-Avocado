@@ -5,7 +5,7 @@
 	- tab list
 1. <- this is ordered list
 2. ^copy
-- [] checklist
+- [ ] checklist
 __bold__
 _italic_
 ~~delType~~
@@ -24,3 +24,7 @@ _italic_
 link
 [avocat github](https://github.com/AvocatDSM)
 
+horizon
+___
+
+h<br>i
