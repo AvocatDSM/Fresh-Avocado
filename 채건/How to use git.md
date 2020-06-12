@@ -100,4 +100,4 @@ git의 내장 GUI
 이력(log)에서 확정본 1개를 딱 한 줄로만 표시하기  
 `git config format.pretty oneline`  
 파일을 추가할 때 대화식으로 추가하기  
-`git add -i`  
+`git add -i`
