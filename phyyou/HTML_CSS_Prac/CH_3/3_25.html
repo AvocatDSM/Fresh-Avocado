@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Selector Basic Page</title>
+    <style>
+        input[type=checkbox]:checked + div {
+            height: 0px;
+        }
+        div {
+            overflow: hidden;
+            width: 650px; height: 300px;
+
+            -webkit-transition-duration: 1s;
+            -moz-transition-duration: 1s;
+            transition-duration: 1s;
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" name="check_p_animated" id="transition">
+    <div>
+        <h1>Lorem ipsum</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget eleifend augue. Praesent quis nunc nisi. Praesent eleifend ex magna, sed dignissim sem cursus vestibulum. Sed congue erat justo, vel dapibus neque elementum sed. Quisque quis ante ac ante convallis tincidunt nec nec ligula. Sed id diam sit amet eros facilisis congue eu et mauris. Mauris suscipit nulla sollicitudin, tempor lectus in, mollis ligula. Praesent sed sodales erat. Phasellus vulputate ipsum eget tortor elementum, quis aliquet tellus ullamcorper. Nullam porta sollicitudin urna, eu luctus diam cursus eget. Nunc nisi velit, lacinia tristique mollis at, dapibus sed velit. Vestibulum sapien ipsum, pharetra tempor quam sed, mollis eleifend lorem.</p>
+    </div>
+</body>
+</html>
