@@ -1,0 +1,18 @@
+body {
+    background-color: white;
+}
+h3 { color: lightcoral; }
+#p1 { color: indianred; }
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+input:disabled + span {
+    color: gray;
+    text-decoration: line-through;
+}
+.back {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 1.5em;
+    background-color: rgba(255, 0, 0, 0.2);
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS3 Selector Basic Page</title>
+    <style>
+        p { counter-increment: rint;}
+        p::before { content: counter(rint) "."; }
+        p::after { content: " - "attr(data-page) " page"; }
+        p::first-letter { font-size: 3em; }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet</h1>
+    <p data-page="52">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nunc massa, pretium ut laoreet ac, lacinia sed enim. Donec lobortis turpis non mi auctor, a suscipit libero mollis. Nam sollicitudin faucibus mi, varius porta orci ornare convallis. Cras maximus orci elit, id rutrum mauris ultricies id. Maecenas vitae ligula sit amet tortor elementum consequat eu sit amet elit. Maecenas eu eros ac elit mollis consectetur quis et neque. Aliquam eget odio magna. Nulla fringilla nisi magna, sed sodales mauris volutpat a. Mauris non venenatis arcu, ac efficitur leo. Sed turpis arcu, facilisis ac lacinia ut, feugiat a massa. Sed blandit odio sed nulla imperdiet sodales eu vitae nunc. In tincidunt eleifend justo, at lacinia mauris rhoncus sed. Morbi id aliquam elit. Praesent placerat mi et ex auctor, quis sagittis massa viverra. Cras blandit purus at sapien malesuada malesuada.</p>
+    <p data-page="273">In pellentesque non risus sit amet egestas. Nam elit dolor, fermentum quis nisi a, consectetur imperdiet leo. Cras vulputate, magna placerat viverra varius, mauris tortor suscipit massa, sit amet ornare erat ligula ac erat. Donec enim mi, dictum consequat urna in, accumsan semper velit. Sed vestibulum augue ac tellus rutrum efficitur. Suspendisse vestibulum orci vel elit imperdiet rutrum. Curabitur pellentesque posuere mauris quis bibendum. Phasellus mollis ligula ut mauris viverra, et gravida tellus vulputate. Ut ultricies sed arcu eu porttitor. Duis eget congue est, sit amet ullamcorper nunc. Donec euismod dapibus tempor. Duis in placerat quam, nec finibus neque. Proin nisi quam, hendrerit a metus in, malesuada condimentum augue. Nulla egestas orci vel nibh feugiat finibus. Curabitur bibendum leo vitae auctor lacinia.</p>
+</body>
+</html>
