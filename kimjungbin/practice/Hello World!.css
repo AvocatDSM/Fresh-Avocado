@@ -1,0 +1,5 @@
+.txtBox10bg, .txtBox11bg, .txtBox12bg, .txtBox13bg, .txtBox14bg { border-style: solid; border-width: 0 0 0 8px; padding: 12px; word-break: break-all; }
+#information
+{
+	 .txtBox10bg { border-color: LightGray; background-color:rgba(211, 211, 211, 0.2); }
+}
