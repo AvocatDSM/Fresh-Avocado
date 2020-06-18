@@ -9,24 +9,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         #search_bar { 
-                width: 520px; margin: 0 auto;
-            }
-        #search_bar_input:not(:focus) {
-            background-image:url('search-24px.svg'); background-position: 1%; background-repeat:no-repeat;
+            position: relative;
+            width: 520px;
+            margin: 0 auto;
         }
-        input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder { /* WebKit browsers */ color:transparent; } input:focus:-moz-placeholder, textarea:focus:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ color:transparent; } input:focus::-moz-placeholder, textarea:focus::-moz-placeholder { /* Mozilla Firefox 19+ */ color:transparent; } input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */ color:transparent; }
-
+        #search_bar_input {
+            padding-left: 32px;
+            background-color: transparent;
+        }
+        #search_img {
+            position: absolute;
+            top: 50%;
+            left: 1%;
+            transform: translateY(-50%);
+        }
+        /* input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder { WebKit browsers color:transparent; }  */
+        /* input:focus:-moz-placeholder, textarea:focus:-moz-placeholder { Mozilla Firefox 4 to 18 color:transparent; }  */
+        /* input:focus::-moz-placeholder, textarea:focus::-moz-placeholder { Mozilla Firefox 19+ color:transparent; }  */
+        /* input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder { Internet Explorer 10+ color:transparent; } */
+        #logo {
+            display: block; margin: 0 auto; padding-top: 200px;
+        }
     </style>
     <title>Hoogle</title>
 </head>
 <body>
-    <img src="googlelogo_color_272x92dp.png" style="display: block; margin: 0 auto; padding-top: 200px;">
+    <img src="googlelogo_color_272x92dp.png" id="logo">
     <form action="https://www.google.com/search" method="GET">
         <div class="input-group mb-3 mt-4" id="search_bar">
-            <input name="q" type="text" id="search_bar_input"class="form-control rounded-pill large" placeholder="&nbsp&nbsp&nbsp Hoogle 검색 또는 URL 입력" aria-label="Hoogle 검색 또는 URL 입력" aria-describedby="button-addon2">
+            <img src="search-24px.svg" alt="search" id="search_img" title="search" >
+            <input name="q" type="text" id="search_bar_input"class="form-control rounded-pill large" placeholder="Hoogle 검색 또는 URL 입력" aria-label="Hoogle 검색 또는 URL 입력" aria-describedby="button-addon2">
             <div class="input-group-append">
         </div>
       </div>
     </form>
+    <script>
+        const searchImg = document.getElementById("search_img");
+        const searchInput = document.getElementById("search_bar_input");
+        const searchInputValue = document.getElementById("search_bar_input").value;
+
+        searchInput.addEventListener("focus", () => {
+            searchImg.style.display = "none";
+        });
+        
+        if((searchInputValue == "")&&(searchInput == "focusout"))
+        {
+            searchImg.style.display = "none";
+        }
+
+    </script>
 </body>
 </html>
