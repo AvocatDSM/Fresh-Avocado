@@ -46,17 +46,22 @@
     <script>
         const searchImg = document.getElementById("search_img");
         const searchInput = document.getElementById("search_bar_input");
-        const searchInputValue = document.getElementById("search_bar_input").value;
 
         searchInput.addEventListener("focus", () => {
             searchImg.style.display = "none";
         });
-        
-        if((searchInputValue == "")&&(searchInput == "focusout"))
-        {
-            searchImg.style.display = "none";
-        }
 
+        searchInput.addEventListener("focusout", (e) => {
+            if(e.target.value === "") {
+                searchImg.style.display = "block";
+            }
+        });
     </script>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          웹 사이트로 보기
+        </a>
+      </nav>
+    <div id="footer"></div>
 </body>
 </html>
