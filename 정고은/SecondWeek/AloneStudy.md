@@ -1,0 +1,31 @@
+혹시 과제 확인하는데 심심하실까봐 아보캣 노션 커리큘럼의 백엔드 부분을 자습해 보았습니다. 내용을 정정할 필요가 있다면 페메로 많이 알려주세요~~
+
+- Protocol
+  - Http, TCP/IP, OSI 7 Layer
+    - HTTP의 구조
+    - HTTP/TCP/IP의 관계
+    - TCP Handshake
+    - UDP VS TCP
+    - 계층별 헤더
+- WS/WAS
+  - WS
+    - Nginx
+    - Apache
+  - WAS
+    - Spring Boot
+    - Flask
+    - Express
+    - Ruby on Rails
+- Database
+  - SQL
+  - NoSQL
+    - Mongo
+- Architecture
+  - REST
+  - MVC
+  - Serverless
+  - MSA
+- 통신
+  - CORS
+  - Status Code
+  - JSON
