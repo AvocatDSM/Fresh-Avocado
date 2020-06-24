@@ -1,0 +1,29 @@
+- Protocol
+  - Http, TCP/IP, OSI 7 Layer
+    - HTTP의 구조
+    - HTTP/TCP/IP의 관계
+    - TCP Handshake
+    - UDP VS TCP
+    - 계층별 헤더
+- WS/WAS
+  - WS
+    - Nginx
+    - Apache
+  - WAS
+    - Spring Boot
+    - Flask
+    - Express
+    - Ruby on Rails
+- Database
+  - SQL
+  - NoSQL
+    - Mongo
+- Architecture
+  - REST
+  - MVC
+  - Serverless
+  - MSA
+- 통신
+  - CORS
+  - Status Code
+  - JSON
