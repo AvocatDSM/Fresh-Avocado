@@ -9,12 +9,6 @@
 # | 09/07 | 월 | 474,500 |
 
 naver_closing_price = [474500, 461500, 501000, 500500, 488500]
-naver_closing_price2 = {'Mon': None, 'Tue': None, 'Wed': None, 'Thu': None, 'Fri': None}
-
-naver_closing_price2.update(Mon = naver_closing_price[0])
-naver_closing_price2.update(Tue = naver_closing_price[1])
-naver_closing_price2.update(Wed = naver_closing_price[2])
-naver_closing_price2.update(Thu = naver_closing_price[3])
-naver_closing_price2.update(Fri = naver_closing_price[4])
-
+naver_closing_price2 = {'09/07': None, '09/08': None, '09/09': None, '09/10': None, '09/11': None}
+naver_closing_price2 = {'09/07': naver_closing_price[0], '09/08': naver_closing_price[1], '09/09': naver_closing_price[2], '09/10': naver_closing_price[3], '09/11': naver_closing_price[4]}
 print(naver_closing_price2)
