@@ -30,6 +30,12 @@
         #logo {
             display: block; margin: 0 auto; padding-top: 200px;
         }
+        #footer {
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            z-index: 2147483647;
+        }
     </style>
     <title>Hoogle</title>
 </head>
@@ -57,11 +63,10 @@
             }
         });
     </script>
-    <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          웹 사이트로 보기
-        </a>
-      </nav>
-    <div id="footer"></div>
+    <div id="footer">
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="http://park-hyoyoung-sub.000webhostapp.com/">웹 사이트로 보기</a>
+        </nav>
+    </div>
 </body>
 </html>
