@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+}
+header {
+    display: flex;
+}
+.img {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+.scarfs {
+    font-size: 28px;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 7.5%;
+    padding-top: 1.9vh;
+    cursor: default;
+}
+.assignment {
+    font-size: 16px;
+    color: white;
+    margin: 0 10% 0 auto;
+    padding-top: 4.2vh;
+    font-weight: bold;
+    cursor: pointer;
+}
+.QnA {
+    font-size: 16px;
+    color: white;
+    margin-right: 10%;
+    padding-top: 4.2vh;
+    font-weight: bold;
+    cursor: pointer;
+}
+.noticeboard {
+    font-size: 16px;
+    color: white;
+    margin-right: 7.5%;
+    padding-top: 4.2vh;
+    font-weight: bold;
+    cursor: pointer;
+}
+.eschool {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 12px;
+}
+.escience {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    height: 71px;
+}
+.line {
+    width: 400px;
+    height: 0;
+    border-top: 2px solid rgba(255, 255, 255, 0.884);
+}
+.kschool {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 7px;
+    height: 16px;
+}
+.kscience {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+.center {
+    height: auto;
+    width: 640px;
+    margin: 33vh 0 0 8.6vw;
+    cursor: default;
+}
+.login {
+    width: 105px;
+    height: 105px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    border: none;
+    font-weight: bold;
+}
+.signup {
+    width: 105px;
+    height: 105px;
+    color: black;
+    background-color: rgb(255, 87, 25);
+    border: none;
+    font-weight: bold;
+}
+.footer {
+    float: right;
+    display: flex;
+    position: absolute;
+    bottom: 5%;
+    right: 56px;
+}
+.scroll {
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 25px;
+    height: 50px;
+    width: 24px;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin-left: 14px;
+    margin-bottom: 6px;
+}
+.down {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 5px;
+    font-weight: bold;
+}
+.fline {
+    width: 24px;
+    height: 0;
+    border: 1.5px solid rgb(255, 87, 25, 0.8);
+}
+.sline {
+    margin-top: 10px;
+    width: 20px;
+    height: 0;
+    border: 1.5px solid rgba(255, 255, 255, 0.7);
+    margin-left: 4px;
+}
+.lines {
+    padding-left: 15px;
+    padding-bottom: 11vh;
+}
+.aside {
+    position: absolute;
+    top: 42%;
+    right: 2.9%;
+}
